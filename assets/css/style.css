@@ -1,0 +1,73 @@
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    align-items: center;
+    padding: 10px;
+}
+
+a:hover{
+color: azure;
+}
+
+ul li{
+margin-left: 10px;
+}
+
+.evenly{
+display: flex;
+justify-content: space-evenly;
+}
+
+.logo{
+    width: 100%;
+    margin: 30px 30px;
+}
+
+main{
+    background-color: rgb(15, 15, 15);
+}
+ 
+main, section, label, h4 , p{
+    color: aliceblue;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 20px;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form input{
+    width:  380px;
+}
+
+article p{
+    padding-right: 40px;
+}
+
+article a:hover{
+    color: brown;
+}
